@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image:url(./Images/image5.jpg);
+    background-size: cover;
+    background-position: center;
+} 
+.logo{
+    color: black;
+    font-size:35px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color:rgb(248, 0, 0)
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+ul li{
+    display: inline-block;
+    padding: 10px 30px;
+}
+ul li a{
+    color: black;
+    text-decoration: none;
+}
+ul li a:hover{
+    color:rgb(248, 0, 0); 
+}
+.btn{
+    color: white;
+    background-color:black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+.content{
+    position: absolute;
+    top: 33%;
+    left: 6%;
+}
+h1{
+    color: black;
+    margin: 5px 0 5px;
+    font-size: 50px;
+}
+h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+h4{
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+.newsletter form{
+    width: 400px;
+    max-width: 100%;
+    position: relative;
+}
+.newsletter form input:first-child{
+    width: 92.5%;
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid rgb(248, 0, 0);
+    border-radius: 35px;
+}
+.newsletter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    border: none;
+    border-radius: 32px;
+    padding: 10px 25px;
+    background-color: rgb(248, 0, 0);
+    color: white;
+    top: 2px;
+    right: 6px; 
+}
+.newsletter form input:last-child:hover{
+    color: rgb(0, 0, 0);
+}
+.icons{
+    position: absolute;
+    margin-top: 20px;
+}
+h5{
+    font-size: 18px;
+    padding-bottom: 3px;
+}
+.facebook{
+    width: 10%;
+    padding-right: 5px;
+    transition: transform .4s;
+}
+.facebook:hover{
+    transform: scale(1.1);
+}
+.twitter{
+    width: 10%;
+    padding-right: 5px;
+    transition: transform .4s;
+}
+.twitter:hover{
+    transform: scale(1.1);
+}
+.linkedin{
+    width: 10%;
+    padding-right: 5px;
+    transition: transform .4s;
+}
+.linkedin:hover{
+    transform: scale(1.1);
+}
+.youtube{
+    width: 10%;
+    transition: transform .4s;
+}
+.youtube:hover{
+    transform: scale(1.1);
+}
